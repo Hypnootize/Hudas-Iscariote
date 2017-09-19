@@ -1,0 +1,198 @@
+"Resource/UI/TextWindowCustomServer.res"
+{
+	"info"
+	{
+		"ControlName"			"Frame"
+		"fieldName"				"info"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"					"480"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"settitlebarvisible"	"0"
+	}
+
+	"BG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-2"
+		"wide"			"f0"
+		"tall"			"480"
+		"fillcolor"		"0 0 0 195"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	
+	"TitleBG"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"TitleBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"../hud/score_panel_blue_bg"
+		"scaleImage"		"1"
+
+		"src_corner_height"		"23"				
+		"src_corner_width"		"23"
+			
+		"draw_corner_width"		"0"				
+		"draw_corner_height"		"0"
+	}
+
+	"TFMessageTitle"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TFMessageTitle"
+		"xpos"			"0"
+		"ypos"			"r326"
+		"zpos"			"3"
+		"wide"			"300"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"labelText"		"#TF_Welcome"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"Medium14"
+		"fgcolor"		"255 255 255 255"
+	}
+
+	"TextMessage"
+	{
+		"ControlName"	"TextEntry"
+		"fieldName"		"TextMessage"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+
+	"TFTextMessage"
+	{
+		"ControlName"	"CTFRichText"
+		"fieldName"		"TFTextMessage"
+		"font"			"Medium8"
+		"xpos"			"0"
+		"ypos"			"r295"
+		"zpos"			"3"
+		"wide"			"f0"		
+		"tall"			"110"
+		"autoResize"	"3"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"paintborder"	"0"
+		"textAlignment"	"center"
+		"fgcolor"		"255 255 255 255"
+	}
+
+"HTMLMessage"
+	{
+		"ControlName"		"HTML"
+		"fieldName"		"HTMLMessage"
+		"xpos"			"c-355"
+		"ypos"			"30"
+		"zpos"			"1"
+		"wide"			"710"
+		"tall"			"390"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"paintborder"	"0"
+	}
+
+	"ok"
+	{
+		"ControlName"		"CTFButton"
+		"fieldName"		"ok"
+		"xpos"			"c-355"
+		"ypos"			"r57"
+		"zpos"			"3"
+		"wide"			"710"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"labelText"		"CONTINUE"
+		"textAlignment"		"center"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"wrap"		"0"
+		"command"		"okay"
+		"default"		"1"
+		"border_default"		""
+		"border_armed"		""
+		"paintbackground"	"0"
+		"font"			"Museo14"
+		"fgcolor"		"234 234 234 255"
+		"defaultFgColor_override" "234 234 234 255"
+		"armedFgColor_override" "BuffedColor"
+		"depressedFgColor_override" "234 234 234 255"
+	}
+	"okBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"okBG"
+		"xpos"			"c-355"
+		"ypos"			"r57"
+		"zpos"			"1"
+		"wide"			"710"
+		"tall"			"20"
+		"fillcolor"		"32 32 32 245"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	
+	"MenuBG"
+	{
+		"ControlName"	"CModelPanel"
+		"fieldName"		"MenuBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"		
+		"wide"			"0"
+		"tall"			"0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fov"			"0"
+		
+		"model"
+		{
+			"modelname"	"models/vgui/UI_welcome01_screen.mdl"
+			"skin"		"0"
+			"angles_x" "0"
+			"angles_y" "180"
+			"angles_z" "0"
+			"origin_x" "290"
+			"origin_y" "0"
+			"origin_z" "-39"
+		}
+	}
+
+	"MessageTitle"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"MessageTitle"
+		"visible"		"0"
+		"enabled"		"0"
+	}		
+}
