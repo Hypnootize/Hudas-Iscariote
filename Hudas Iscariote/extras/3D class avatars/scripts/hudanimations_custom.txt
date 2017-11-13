@@ -257,15 +257,3 @@ event HudSpyDisguiseFadeOut
 }
 
 //===========================================
-
-event WinPanel_CompPos
-{
-	Animate WinPanel ypos 5 linear 0 0
-}
-
-event WinPanel_NormalPos
-{
-	Animate WinPanel ypos 5 linear 0 0
-}
-
-//===========================================

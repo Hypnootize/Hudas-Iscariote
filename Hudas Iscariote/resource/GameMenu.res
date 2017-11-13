@@ -9,27 +9,6 @@
 	{
 		"command" "engine connect [IP SERVER]"
 	}
-	"CasualButton"
-	{
-		"label" "Casual" 
-		"command" "play_casual"
-		"subimage" "glyph_multiplayer"
-		"OnlyAtMenu"	"0"
-	}
-	"CompetitiveButton"
-	{
-		"label" "Competitive" 
-		"command" "play_competitive"
-		"subimage" "glyph_multiplayer"
-		"OnlyAtMenu"	"0"
-	}
-	"MvMButton"
-	{
-		"label" "MvM" 
-		"command" "play_mvm"
-		"subimage" "glyph_multiplayer"
-		"OnlyAtMenu"	"0"
-	}
 	"ServerBrowserButton"
 	{
 		"label" "Servers" 
