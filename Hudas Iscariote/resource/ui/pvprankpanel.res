@@ -198,9 +198,9 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"29"
-			"ypos"			"40"
-			"wide"			"120"
+			"xpos"			"1"
+			"ypos"			"10"
+			"wide"			"110"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
@@ -226,9 +226,9 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"LevelLabel"
-			"xpos"			"29"
-			"ypos"			"54"
-			"wide"			"120"
+			"xpos"			"1"
+			"ypos"			"24"
+			"wide"			"110"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
@@ -254,8 +254,8 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
 			"xpos"			"0"
-			"ypos"			"-53"
-			"wide"			"150"
+			"ypos"			"0"
+			"wide"			"110"
 			"tall"			"f0"
 			"proportionaltoparent"	"1"
 
@@ -286,7 +286,7 @@
 					"ypos"			"rs1"
 					"zpos"			"0"
 					"wide"			"100"
-					"tall"			"20"
+					"tall"			"0"
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"ItemFontAttribSmall"
@@ -297,6 +297,7 @@
 					
 					if_mini
 					{
+						"tall"			"20"
 						"fgcolor_override"	"TanLight"
 					}
 				}
@@ -309,7 +310,7 @@
 					"ypos"			"rs1"
 					"zpos"			"0"
 					"wide"			"100"
-					"tall"			"20"
+					"tall"			"0"
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"ItemFontAttribSmall"
@@ -320,6 +321,7 @@
 					
 					if_mini
 					{
+						"tall"			"20"
 						"fgcolor_override"	"TanLight"
 					}
 				}
