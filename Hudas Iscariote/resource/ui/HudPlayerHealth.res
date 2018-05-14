@@ -104,7 +104,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/hud_test"
+		"image"			""
 		
 		"src_corner_height"	"0"
 		"src_corner_width"	"0"

@@ -117,7 +117,7 @@ Scheme
 		"HudTrainingHint"			"212 160 23 255"
 		
 		"TanDark"				"117 107 94 255"
-		"TanLight"				"235 226 202 255"
+		"TanLight"				"234 234 234 255"
 		"TanDarker"				"46 43 42 255"
 		
 		"StoreDarkTan"			"131 121 104 255"
@@ -7263,58 +7263,58 @@ Scheme
 		}
 		"7" 
 		{
-			"font" "resource/symbol.ttf"
+			"font" "resource/fonts/symbol.ttf"
 			"name" "symbol"
 		}
 		"8" 
 		{
-			"font" "resource/FORMASGE.ttf"
+			"font" "resource/fonts/FORMASGE.ttf"
 			"name" "FORMASGE"
 		}
 		"9" 
 		{
-			"font" "resource/Paula.ttf"
+			"font" "resource/fonts/Paula.ttf"
 			"name" "Paula"
 		}
 		"10" 
 		{
-			"font" "resource/Archive.otf"
+			"font" "resource/fonts/Archive.otf"
 			"name" "Archive"
 		}
 		"11" 
 		{
-			"font" "resource/GOTHIC.ttf"
+			"font" "resource/fonts/GOTHIC.ttf"
 			"name" "Century Gothic"
 		}
 		"12" 
 		{
-			"font" "resource/MuseoSansCyrl-500.otf"
+			"font" "resource/fonts/MuseoSansCyrl-500.otf"
 			"name" "MuseoSansCyrl-500"
 		}
 		"13" 
 		{
-			"font" "resource/Archive_numbers.otf"
+			"font" "resource/fonts/Archive_numbers.otf"
 			"name" "Archive_numbers"
 		}
 		"14" 
 		{
-			"font" "resource/HudasIscariote.otf"
+			"font" "resource/fonts/HudasIscariote.otf"
 			"name" "Hudas Iscariote"
 		}
 		"15"
 		{
-			"font" "resource/Blocks.ttf"
+			"font" "resource/fonts/Blocks.ttf"
 			"name" "Blocks"
 		}
 		"16" 
 		{
-			"font" "resource/crosshairs.ttf"
+			"font" "resource/fonts/crosshairs.ttf"
 			"name" "Crosshairs"
 		}
 		"17" 
 		{
-		"font" "resource/Garm3nFont.ttf"
-		"name" "Garm3nFont"
+			"font" "resource/fonts/Garm3nFont.ttf"
+			"name" "Garm3nFont"
 		}
 	}
 }

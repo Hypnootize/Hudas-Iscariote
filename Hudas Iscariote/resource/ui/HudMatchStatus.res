@@ -289,7 +289,7 @@
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"Museo16"
 			"fgcolor"		"234 234 234 255"
@@ -300,7 +300,7 @@
 			"tall"			"19"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
 		}	
 	}

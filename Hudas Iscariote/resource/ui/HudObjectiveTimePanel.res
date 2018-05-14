@@ -21,8 +21,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"	"9999"
 		}
 
 	}
@@ -45,8 +44,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"	"9999"
 		}
 
 	}
@@ -55,16 +53,10 @@
 		"ControlName"			"CTFProgressBar"
 		"fieldName"			"TimePanelProgressBar"
 		"xpos"				"67"
-		"xpos_hidef"		"159"
-		"xpos_lodef"		"165"
 		"ypos"				"16"
-		"ypos_hidef"		"15"
-		"ypos_lodef"		"16"
 		"zpos"				"4"	
 		"wide"				"20"
-		"wide_lodef"		"25"
 		"tall"				"20"
-		"tall_lodef"		"25"	
 		"visible"			"0"
 		"enabled"			"0"
 		"scaleImage"			"1"
@@ -76,8 +68,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"	"9999"
 		}
 	}
 	"WaitingForPlayersLabel"
@@ -101,8 +92,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"	"9999"
 		}
 	}			
 	"WaitingForPlayersBG"
@@ -111,8 +101,6 @@
 		"fieldName"		"WaitingForPlayersBG"
 		"xpos"			"48"	
 		"ypos"			"2220"
-		"ypos_hidef"	"2220"	//off-screen
-		"ypos_lodef"	"2220"	//off-screen
 		"zpos"			"1"
 		"wide"			"56"
 		"tall"			"12"
@@ -123,8 +111,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"	"9999"
 		}
 	}
 	"OvertimeLabel"
@@ -148,8 +135,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"	"9999"
 		}
 	}			
 	"OvertimeBG"
@@ -158,8 +144,6 @@
 		"fieldName"		"OvertimeBG"
 		"xpos"			"16"	
 		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"0"
 		"tall"			"0"
@@ -170,8 +154,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"	"9999"
 		}
 	}
 	"SuddenDeathLabel"
@@ -195,8 +178,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"	"9999"
 		}
 	}			
 	"SuddenDeathBG"
@@ -205,8 +187,6 @@
 		"fieldName"		"SuddenDeathBG"
 		"xpos"			"16"	
 		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"0"
 		"tall"			"0"
@@ -217,8 +197,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"	"9999"
 		}
 	}	
 	"SetupLabel"
@@ -242,8 +221,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"	"9999"
 		}
 	}	
 	"SetupBG"
@@ -252,8 +230,6 @@
 		"fieldName"		"SetupBG"
 		"xpos"			"48"	
 		"ypos"			"20222"
-		"ypos_hidef"	"2220"	//off-screen
-		"ypos_lodef"	"2022"	//off-screen
 		"zpos"			"1"
 		"wide"			"56"
 		"tall"			"12"
@@ -270,11 +246,10 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"	"9999"
 		}
 	}
-	 "ServerTimeLimitLabel"
+	"ServerTimeLimitLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
@@ -282,8 +257,6 @@
 		"ypos"			"18"
 		"zpos"			"5"
 		"wide"			"56"
-		"wide_hidef"	"300"
-		"wide_lodef"	"300"
 		"tall"			"14"
 		"visible"		"0"
 		"enabled"		"1"
@@ -294,6 +267,13 @@
 		"wrap"			"0"
 		"font"			"Museo14"
 		"fgcolor"		"32 32 32 255"
+		
+		if_match
+		{
+			"ypos"		"16"
+			"font"		"Museo12"
+			"fgcolor"	"234 234 234 255"
+		}
 	}	
 	"ServerTimeLimitLabelBG"
 	{
@@ -301,8 +281,6 @@
 		"fieldName"		"ServerTimeLimitLabelBG"
 		"xpos"			"48"	[$WIN32]
 		"ypos"			"18"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"56"
 		"tall"			"13"
@@ -316,5 +294,10 @@
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"
 		"fillcolor"	"234 234 234 255"
+		
+		if_match
+		{
+			"xpos"	"9999"
+		}
 	}	
 }
