@@ -254,8 +254,8 @@
 			"fonts"
 			{
 				"0"		"Museo12"
-				"1"		"Museo12"
-				"2"		"Museo12"
+				"1"		"Museo10"
+				"2"		"Museo8"
 			}
 		}
 
@@ -288,8 +288,8 @@
 			"fonts"
 			{
 				"0"		"Museo12"
-				"1"		"Museo12"
-				"2"		"Museo12"
+				"1"		"Museo10"
+				"2"		"Museo8"
 			}
 
 			"colors"

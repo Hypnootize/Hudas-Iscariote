@@ -1,370 +1,8 @@
+#base "../scripts/Crosshairs/crosshairs.res"
+
 "Resource/HudLayout.res"
 {
-//
-//##########################################
-//IGNORE!! STUFF TO HELP ME MAKE BEST HUD EU
-//##########################################
-//
-    "Helper1"
-    {
-        "ControlName"   "ImagePanel"
-        "fieldName"     "Helper1"
-        "xpos"          "c-148"
-        "ypos"          "0"
-        "zpos"          "10111100"
-        "wide"          "1"
-        "tall"          "f0"
-        "autoResize"    "0"
-        "pinCorner"     "0"
-        "visible"       "0"
-        "enabled"       "1"
-        "tabPosition"   "0"
-        "fillcolor"     "255 0 255 193"
-        "PaintBackgroundType"   "0"
-    }
-    "Helper2"
-    {
-        "ControlName"   "ImagePanel"
-        "fieldName"     "Helper2"
-        "xpos"          "0"
-        "ypos"          "c91"
-        "zpos"          "1000"
-        "wide"          "f0"
-        "tall"          "1"
-        "autoResize"    "0"
-        "pinCorner"     "0"
-        "visible"       "0"
-        "enabled"       "1"
-        "tabPosition"   "0"
-        "fillcolor"     "255 0 255 123"
-        "PaintBackgroundType"   "0"
-    }
-//
-//###################
-//#QUARTZ CROSSHAIRS#
-//###################
-//
-    QuartzxHair //You should activate both ;)
-    {
-        "ControlName"   "ImagePanel"
-        "fieldName"     "QuartzxHair"
-        "xpos"          "c-1"
-        "ypos"          "c-1"
-        "zpos"          "5"
-        "wide"          "2"
-        "tall"          "2"
-        "autoResize"    "0"
-        "pinCorner"     "0"
-        "visible"       "0"
-        "enabled"       "1"
-        "fillcolor"     "255 255 255 255"
-        "alpha" "255"
-    }
-    QuartzxHairOutline
-    {
-        "ControlName"   "ImagePanel"
-        "fieldName"     "QuartzxHairOutline"
-        "xpos"          "c-2"
-        "ypos"          "c-2"
-        "zpos"          "4"
-        "wide"          "4"
-        "tall"          "4"
-        "autoResize"    "0"
-        "pinCorner"     "0"
-        "visible"       "0"
-        "enabled"       "1"
-        "fillcolor"     "0 0 0 255"
-        "alpha" "255"
-    }
-    //FighterPilot Crosshair (Enable All)
-    "FighterPilotOuterTop"
-    {
-        "ControlName"       "ImagePanel"
-        "fieldName"     "FighterPilotOuterTop"
-        "xpos"          "c"
-        "ypos"          "55"
-        "zpos"          "-5"
-        "wide"          "1"
-        "tall"          "170"
-        "tall_lodef"    "206"
-        "tall_hidef"    "212"
-        "autoResize"    "0"
-        "pinCorner"     "0"
-        "visible"       "0"
-        "enabled"       "1"
-        "fillcolor"     "255 255 255 255"
-        "alpha" "30"
-    }
-
-    "FighterPilotOuterLeft"
-    {
-        "ControlName"       "ImagePanel"
-        "fieldName"     "FihgterPilotOuterLeft"
-        "xpos"          "c-349"
-        "xpos_lodef"    "279"
-        "xpos_hidef"    "309"
-        "ypos"          "240"
-        "zpos"          "-5"
-        "wide"          "330"
-        "tall"          "1"
-        "tall_lodef"    "206"
-        "tall_hidef"    "212"
-        "autoResize"    "0"
-        "pinCorner"     "0"
-        "visible"       "0"
-        "enabled"       "1"
-        "fillcolor"     "255 255 255 255"
-        "alpha" "30"
-    }
-
-    "FighterPilotOuterRight"
-    {
-        "ControlName"       "ImagePanel"
-        "fieldName"     "FighterPilotOuterRight"
-        "xpos"          "c19"
-        "xpos_lodef"    "279"
-        "xpos_hidef"    "309"
-        "ypos"          "240"
-        "zpos"          "-5"
-        "wide"          "330"
-        "tall"          "1"
-        "tall_lodef"    "206"
-        "tall_hidef"    "212"
-        "autoResize"    "0"
-        "pinCorner"     "0"
-        "visible"       "0"
-        "enabled"       "1"
-        "fillcolor"     "255 255 255 255"
-        "alpha" "30"
-    }
-
-    "FighterPilotInnerTop"
-    {
-        "ControlName"       "ImagePanel"
-        "fieldName"     "FighterPilotInnerTop"
-        "xpos"          "c"
-        "xpos_lodef"    "279"
-        "xpos_hidef"    "309"
-        "ypos"          "187"
-        "zpos"          "-5"
-        "wide"          "1"
-        "tall"          "38"
-        "tall_lodef"    "206"
-        "tall_hidef"    "212"
-        "autoResize"    "0"
-        "pinCorner"     "0"
-        "visible"       "0"
-        "enabled"       "1"
-        "fillcolor"     "255 255 255 255"
-        "alpha" "85"
-    }
-
-    "FighterPilotInnerBottom"
-    {
-        "ControlName"       "ImagePanel"
-        "fieldName"     "FighterPilotInnerBottom"
-        "xpos"          "c"
-        "xpos_lodef"    "279"
-        "xpos_hidef"    "309"
-        "ypos"          "254"
-        "zpos"          "-5"
-        "wide"          "1"
-        "tall"          "38"
-        "tall_lodef"    "206"
-        "tall_hidef"    "212"
-        "autoResize"    "0"
-        "pinCorner"     "0"
-        "visible"       "0"
-        "enabled"       "1"
-        "fillcolor"     "255 255 255 255"
-        "alpha" "125"
-    }
-
-    "FighterPilotInnerLeft"
-    {
-        "ControlName"       "ImagePanel"
-        "fieldName"     "FighterPilotInnerLeft"
-        "xpos"          "c-69"
-        "xpos_lodef"    "279"
-        "xpos_hidef"    "309"
-        "ypos"          "240"
-        "zpos"          "-5"
-        "wide"          "50"
-        "tall"          "1"
-        "tall_lodef"    "206"
-        "tall_hidef"    "212"
-        "autoResize"    "0"
-        "pinCorner"     "0"
-        "visible"       "0"
-        "enabled"       "1"
-        "fillcolor"     "255 255 255 255"
-        "alpha" "85"
-    }
-
-    "FighterPilotInnerRight"
-    {
-        "ControlName"       "ImagePanel"
-        "fieldName"     "FighterPilotInnerRight"
-        "xpos"          "c19"
-        "xpos_lodef"    "279"
-        "xpos_hidef"    "309"
-        "ypos"          "240"
-        "zpos"          "-5"
-        "wide"          "50"
-        "tall"          "1"
-        "tall_lodef"    "206"
-        "tall_hidef"    "212"
-        "autoResize"    "0"
-        "pinCorner"     "0"
-        "visible"       "0"
-        "enabled"       "1"
-        "fillcolor"     "255 255 255 255"
-        "alpha" "85"
-    }
-//
-//######################################################
-//#FOG CROSSHAIRS##(CREDITS TO CHIPPY FROM KNHUD/BXHUD)#
-//######################################################
-//
-    fogCrosshair
-    {
-        "controlname"   "CExLabel"
-        "fieldname" "fogCrosshair"
-        
-        "visible"   "0"
-        "enabled"   "1"
-
-        "xpos"      "c-19"
-        "ypos"      "c-13"
-        "zpos"      "2"
-        
-        "wide"      "29"
-        "tall"      "30"
-
-        "font"      "fogCrosshairSmooth"
-        //
-        // Choose what kind
-        //
-        // "fogCrosshair"         - Pixelated and outlined
-        // "fogCrosshairPlain"    - Pixelated and not outlined
-        // "fogCrosshairSmooth"   - Antialiased, not outlined
-        
-
-        "labeltext" "n"
-        //
-        // Choose your crosshair
-        // 
-        // Change the "1" to represent the crosshair you want displayed in the Crosshairs.jpg
-
-        "textAlignment" "center"
-        
-        "fgcolor"   "255 255 255 255"
-    }
-//
-//###################
-//#GARM3N CROSSHAIRS#
-//###################
-//
-    CrossHairKonrWings
-    {
-        "controlName"   "CExLabel"
-        "fieldName"  "CrossHairKonrWings"
-        "visible"    "0"
-        "enabled"    "1"
-        "zpos"   "2"
-
-        "xpos"   "c-22"
-        "ypos"   "c-24"
-        "wide"   "32"
-        "tall"   "49"
-
-        "font"   "CrossHairKonrWings"
-        //
-        // Change the font to "CrossHairKonrWingsOutline" if you want an outline
-        //
-
-        "labelText"  "9"
-        //
-        // Change between a number or a letter (eg. "9" or "Z") to change thickness
-        //
-
-        "textAlignment" "center"    
-        "fgcolor"    "255 255 255 255"
-
-    }
-    "CrossHairNormal"
-    {
-        "controlName"   "CExLabel"
-        "fieldName"     "CrossHairNormal"
-        "visible"       "0"
-        "enabled"       "1"
-        "zpos"          "1"
-        "xpos"          "c-12"
-        "ypos"          "c-15"
-        "wide"          "24"
-        "tall"          "25"
-        "font"          "CrossHairNormal"
-        "labelText"     "+"
-        "fgcolor"       "65 235 0 255"
-        "textAlignment" "center"
-    }
-
-    "CrossHairRequest"
-    {
-        "controlName"   "CExLabel"
-        "fieldName"     "CrossHairRequest"
-        "visible"       "0"
-        "enabled"       "1"
-        "zpos"          "1"
-        "xpos"          "c-11"
-        "ypos"          "c-11"
-        "wide"          "21"
-        "tall"          "21"
-        "font"          "CrossHairRequest"
-        "labelText"     "+"
-        "fgcolor"       "65 235 0 255"
-        "textAlignment" "center"
-    }
-
-    "CrossHairCircle"
-    {
-        "controlName"   "CExLabel"
-        "fieldName"     "CrossHairCircle"
-        "visible"       "0"
-        "enabled"       "1"
-        "zpos"          "2"
-        "xpos"          "c-17"
-        "ypos"          "c-16"
-        "wide"          "34"
-        "tall"          "32"
-        "font"          "CrossHairCircle"
-        "labelText"     "i"
-        "fgcolor"       "65 235 0 255"
-        "textAlignment" "center"    
-    }
-
-    "CrossHairDotOutline"
-    {
-        "controlName"   "CExLabel"
-        "fieldName"     "CrossHairDotOutline"
-        "visible"       "0"
-        "enabled"       "1"
-        "zpos"          "1"
-        "xpos"          "c-4"
-        "ypos"          "c-3"
-        "wide"          "8"
-        "tall"          "7"
-        "font"          "CrossHairDotOutline"
-        "labelText"     "+"
-        "fgcolor"       "65 235 0 255"
-        "textAlignment" "center"
-    }
-//
-//###################
-//#END OF CROSSHAIRS#
-//###################
-//
-    HudPlayerStatus
+	HudPlayerStatus
     {
         "fieldName" "HudPlayerStatus"
         "visible" "1"
@@ -454,13 +92,13 @@
     HudBowCharge
     {
         "fieldName"     "HudBowCharge"
-        "visible"       "1"
-        "enabled"       "1"
-        "xpos"          "c-48"
-        "ypos"          "r111"
-        "zpos"          "2"
-        "wide"          "96"
-        "tall"          "5"
+        "visible"       "0"
+        "enabled"       "0"
+        "xpos"          "0"
+        "ypos"          "0"
+        "zpos"          "0"
+        "wide"          "0"
+        "tall"          "0"
         "MeterFG"       "White"
         "MeterBG"       "Gray"
     }
@@ -1162,6 +800,7 @@
         "enabled"               "1"
         "xpos"                  "0"
         "ypos"                  "5"
+		"zpos"					"20"
         "wide"                  "f0"
         "tall"                  "480"
     }
@@ -1173,6 +812,7 @@
         "enabled"               "1"
         "xpos"					"0"
 		"ypos"					"307"
+		"zpos"					"20"
 		"wide"					"f0"
 		"tall"					"480"
     }
@@ -1184,19 +824,20 @@
         "enabled"               "1"
         "xpos"                  "c-150"
         "ypos"                  "70"
+		"zpos"					"20"
         "wide"                  "300"
         "tall"                  "215"
     }
 
     StatPanel
     {
-        "fieldName"         "StatPanel"
-        "visible"               "1"
-        "enabled"               "1"
-        "xpos"              "0"
-        "ypos"              "0"
-        "wide"              "f0"
-        "tall"              "480"
+        "fieldName"         	"StatPanel"
+        "visible"              	"0"
+        "enabled"              	"0"
+        "xpos"             	 	"0"
+        "ypos"              	"0"
+        "wide"              	"0"
+        "tall"              	"0"
     }
     
     FreezePanel
@@ -1213,12 +854,12 @@
     FreezePanelCallout
     {
         "fieldName"             "FreezePanelCallout"
-        "visible"               "1"
-        "enabled"               "1"
-        "xpos"                  "200"
-        "ypos"                  "200"
-        "wide"                  "100"
-        "tall"                  "50"
+        "visible"               "0"
+        "enabled"               "0"
+        "xpos"                  "0"
+        "ypos"                  "0"
+        "wide"                  "0"
+        "tall"                  "0"
     }
 
     AnnotationsPanelCallout
@@ -1280,6 +921,7 @@
         "enabled"       "1"
         "xpos"          "c-233"
         "ypos"          "c-46"
+		"zpos"			"20"
         "wide"          "470"
         "tall"          "200"
         "PaintBackgroundType"   "0"
@@ -1292,6 +934,7 @@
         "enabled"       "1"
         "xpos"          "c-233"
         "ypos"          "c-46"
+		"zpos"			"20"
         "wide"          "470"
         "tall"          "200"
         "PaintBackgroundType"   "0"
@@ -1304,6 +947,7 @@
 		"enabled" 		"1"
 		"xpos"			"c-123"
 		"ypos"			"c-46"
+		"zpos"			"20"
 		"wide"			"250"
 		"tall"			"195"
 		"PaintBackgroundType"	"0"
@@ -1316,6 +960,7 @@
         "enabled"       "1"
         "xpos"          "c-233"
         "ypos"          "c-46"
+		"zpos"			"20"
         "wide"          "470"
         "tall"          "200"   
         "PaintBackgroundType"   "0"
@@ -1335,24 +980,24 @@
     HudTeamGoal
     {
         "fieldName"     "HudTeamGoal"
-        "visible"           "1"
-        "enabled"           "1"
+        "visible"		"0"
+        "enabled"		"0"
         "xpos"          "0"
-        "ypos"          "200"
+        "ypos"          "0"
         "wide"          "0"
-        "tall"          "480"
+        "tall"          "0"
     }
 
 
     HudTeamGoalTournament
     {
-        "fieldName"             "HudTeamGoalTournament"
-        "visible"           "1"
-        "enabled"           "1"
+        "fieldName"		"HudTeamGoalTournament"
+        "visible"		"0"
+        "enabled"		"0"
         "xpos"          "0"
-        "ypos"          "160"
+        "ypos"          "0"
         "wide"          "0"
-        "tall"          "480"
+        "tall"          "0"
     }
 
     HudTeamSwitch
@@ -1382,14 +1027,12 @@
     HudArenaNotification
     {
         "fieldName"             "HudArenaNotification"
-        "visible"               "1"
-        "enabled"               "1"
-        "xpos"                  "25"
-        "ypos"                  "75"
-        "ypos_hidef"                "90"
-        "ypos_lodef"                "90"
-        "wide"                  "320"
-        "tall"                  "150"
+        "visible"               "0"
+        "enabled"               "0"
+        "xpos"                  "0"
+        "ypos"                  "0"
+        "wide"                  "0"
+        "tall"                  "0"
     }
 
     HudArenaCapPointCountdown
@@ -1422,7 +1065,7 @@
         "enabled"               "1"
         "xpos"                  "c-125"
         "ypos"                  "5"
-        "ypos_lodef"                "75"
+		"zpos"					"20"
         "wide"                  "250"
         "tall"                  "80"
     }
@@ -1694,8 +1337,7 @@
 		"enabled" 		"1"
 		"xpos"			"c-235"
 		"ypos"			"c-46"
-		"ypos_hidef"	"c-42"
-		"ypos_lodef"	"c-42"
+		"zpos"			"20"
 		"wide"			"470"
 		"tall"			"200"
 		"PaintBackgroundType"	"0"

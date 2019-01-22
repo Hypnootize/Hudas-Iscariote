@@ -2,7 +2,7 @@
 {	
 	"TimePanelBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"TimePanelBG"
 		"xpos"			"48"
 		"ypos"			"16"
@@ -73,7 +73,7 @@
 	}
 	"WaitingForPlayersLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
 		"xpos"			"15"
 		"ypos"			"20"
@@ -83,21 +83,16 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_WaitingForPlayers"
-		"textAlignment"		"center"
+		"textAlignment"	"center"
 		"dulltext"		"0"
-		"brighttext"		"0"
+		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"Museo10"
-		"fgcolor"			"234 234 234 255"
-		
-		if_match
-		{
-			"xpos"	"9999"
-		}
+		"fgcolor"		"234 234 234 255"
 	}			
 	"WaitingForPlayersBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"WaitingForPlayersBG"
 		"xpos"			"48"	
 		"ypos"			"2220"
@@ -107,16 +102,11 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/objectives_timepanel_blue_bg"	
-		"scaleImage"		"1"	
-		
-		if_match
-		{
-			"xpos"	"9999"
-		}
+		"scaleImage"	"1"
 	}
 	"OvertimeLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"OvertimeLabel"
 		"xpos"			"15"
 		"ypos"			"20"
@@ -126,21 +116,16 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_Overtime"
-		"textAlignment"		"center"
+		"textAlignment"	"center"
 		"dulltext"		"0"
-		"brighttext"		"0"
+		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"Museo10"
-		"fgcolor"			"234 234 234 255"
-		
-		if_match
-		{
-			"xpos"	"9999"
-		}
+		"fgcolor"		"234 234 234 255"
 	}			
 	"OvertimeBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"OvertimeBG"
 		"xpos"			"16"	
 		"ypos"			"31"
@@ -150,16 +135,11 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"		"1"	
-		
-		if_match
-		{
-			"xpos"	"9999"
-		}
+		"scaleImage"	"1"	
 	}
 	"SuddenDeathLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"SuddenDeathLabel"
 		"xpos"			"15"
 		"ypos"			"20"
@@ -169,21 +149,16 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_SuddenDeath"
-		"textAlignment"		"center"
+		"textAlignment"	"center"
 		"dulltext"		"0"
-		"brighttext"		"0"
+		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"Museo10"
-		"fgcolor"			"234 234 234 255"
-		
-		if_match
-		{
-			"xpos"	"9999"
-		}
+		"fgcolor"		"234 234 234 255"
 	}			
 	"SuddenDeathBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"SuddenDeathBG"
 		"xpos"			"16"	
 		"ypos"			"31"
@@ -193,12 +168,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"		"1"	
-		
-		if_match
-		{
-			"xpos"	"9999"
-		}
+		"scaleImage"	"1"	
 	}	
 	"SetupLabel"
 	{
@@ -212,21 +182,16 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_Setup"
-		"textAlignment"		"center"
+		"textAlignment"	"center"
 		"dulltext"		"0"
-		"brighttext"		"0"
+		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"Museo10"
-		"fgcolor"			"234 234 234 255"
-		
-		if_match
-		{
-			"xpos"	"9999"
-		}
+		"fgcolor"		"234 234 234 255"
 	}	
 	"SetupBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"SetupBG"
 		"xpos"			"48"	
 		"ypos"			"20222"
@@ -237,17 +202,12 @@
 		"enabled"		"0"
 		"image"			"../hud/objectives_timepanel_blue_bg"
 		"bgcolor"		"234 234 234 255"		
-		"scaleImage"		"1"
+		"scaleImage"	"1"
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
 			
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"
-		
-		if_match
-		{
-			"xpos"	"9999"
-		}
 	}
 	"ServerTimeLimitLabel"
 	{
@@ -261,9 +221,9 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"%servertimeleft%"
-		"textAlignment"		"center"
+		"textAlignment"	"center"
 		"dulltext"		"0"
-		"brighttext"		"0"
+		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"Museo14"
 		"fgcolor"		"32 32 32 255"

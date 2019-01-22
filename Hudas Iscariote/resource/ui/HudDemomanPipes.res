@@ -29,7 +29,7 @@
 		"wide"			        "96"
 		"tall"			        "4"
 		"pinCorner"				"2"
-		"visible"				"1"
+		"visible"				"0"
 		"enabled"				"1"
 		"fgcolor_override"      "32 32 32 255"
 		"labelText"				"#TF_Charge"

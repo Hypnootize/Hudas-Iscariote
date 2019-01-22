@@ -1,3 +1,4 @@
+#base "../resource/crosshairs/Crosshair Fonts.res"
 //
 // TRACKER SCHEME RESOURCE FILE
 //
@@ -489,308 +490,6 @@ Scheme
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
 
-		"Default"
-		{
-			"1"
-			{
-				"name"		"MuseoSansCyrl-500"
-				"tall"		"10"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-
-		"DefaultUnderline"
-		{
-			"1"
-			{
-				"name"		"MuseoSansCyrl-500"
-				"tall"		"9"
-				"underline" "1"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"antialias" 	"1"
-			}
-			"2"
-			{
-				"name"		"MuseoSansCyrl-500"
-				"tall"		"9"
-				"range" 		"0x0000 0x00FF"
-				"antialias" 	"1"
-			}
-		}
-		"DefaultSmall"
-		{
-			"1"
-			{
-				"name"		"MuseoSansCyrl-500"
-				"tall"		"9"
-				"range"		"0x0000 0x017F"
-				"yres"	"480 599"
-				"antialias" 	"1"
-			}
-			"2"
-			{
-				"name"		"MuseoSansCyrl-500"
-				"tall"		"9"
-				"range"		"0x0000 0x017F"
-				"yres"	"600 767"
-				"antialias" 	"1"
-			}
-			"3"
-			{
-				"name"		"MuseoSansCyrl-500"
-				"tall"		"11"
-				"range"		"0x0000 0x017F"
-				"yres"	"768 1023"
-				"antialias"	"1"
-			}
-			"4"
-			{
-				"name"		"MuseoSansCyrl-500"
-				"tall"		"18"
-				"range"		"0x0000 0x017F"
-				"yres"	"1024 1199"
-				"antialias"	"1"
-			}
-			"5"
-			{
-				"name"		"MuseoSansCyrl-500"
-				"tall"		"20"
-				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
-				"antialias"	"1"
-			}
-			"6"
-			{
-				"name"		"MuseoSansCyrl-500"
-				"tall"		"12"
-				"range" 		"0x0000 0x00FF"
-				"antialias" 	"1"
-			}
-		}
-
-
-		"DefaultVerySmall"
-		{
-			"1"
-			{
-				"name"		"MuseoSansCyrl-500"
-				"tall"		"12"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
-				"antialias" 	"1"
-			}
-			"2"
-			{
-				"name"		"MuseoSansCyrl-500"
-				"tall"		"12"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"600 767"
-				"antialias" 	"1"
-			}
-			"3"
-			{
-				"name"		"MuseoSansCyrl-500"
-				"tall"		"12"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"768 1023"
-				"antialias"	"1"
-			}
-			"4"
-			{
-				"name"		"MuseoSansCyrl-500"
-				"tall"		"14"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1024 1199"
-				"antialias"	"1"
-			}
-			"5"
-			{
-				"name"		"MuseoSansCyrl-500"
-				"tall"		"16"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
-				"antialias"	"1"
-			}
-		}
-		DefaultLarge
-		{
-			"1"
-			{
-				"name"		"MuseoSansCyrl-500"
-				"tall"		"18"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"480 599"
-				"antialias" 	"1"
-			}
-			"2"
-			{
-				"name"		"MuseoSansCyrl-500"
-				"tall"		"20"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"600 767"
-				"antialias" 	"1"
-			}
-			"3"
-			{
-				"name"		"MuseoSansCyrl-500"
-				"tall"		"22"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"768 1023"
-				"antialias"	"1"
-			}
-			"4"
-			{
-				"name"		"MuseoSansCyrl-500"
-				"tall"		"28"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"1024 1199"
-				"antialias"	"1"
-			}
-			"5"
-			{
-				"name"		"MuseoSansCyrl-500"
-				"tall"		"28"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
-				"antialias" 	"1"
-			}
-			"6"
-			{
-				"name"		"MuseoSansCyrl-500"
-				"tall"		"20"
-				"range" 		"0x0000 0x00FF"
-				"antialias" 	"1"
-			}
-			"7"
-			{
-				"name"		"MuseoSansCyrl-500"
-				"tall"		"20"
-				"range" 		"0x0000 0x00FF"
-				"antialias" 	"1"
-			}
-		}
-		CenterPrintText
-		{
-			// note that this scales with the screen resolution
-			"1"
-			{
-				"name"	"Archive" [!$OSX]
-				"name"	"Archive" [$OSX]
-				"tall"	"18"
-				"antialias" "1"
-				"additive"	"1"
-			}
-		}
-
-		"PlayerPanelPlayerName"
-		{
-			"1"
-			{
-				"name"		"Archive"
-				"tall"		"8"
-				"additive"	"0"
-				"antialias" "1"
-				"antialias" 	"1"
-			}
-		}
-
-		HudHintText
-		{
-			"1"
-			{
-				"name"		"Archive"
-				"tall"		"12"
-				"yres"	"480 599"
-				"antialias" 	"1"
-			}
-			"2"
-			{
-				"name"		"Archive"
-				"tall"		"12"	[$WIN32]
-				"tall"		"20"	[$X360]
-				"yres"	"600 767"
-				"antialias" 	"1"
-			}
-			"3"
-			{
-				"name"		"Archive"
-				"tall"		"14"
-				"yres"	"768 1023"
-				"antialias" 	"1"
-			}
-			"4"
-			{
-				"name"		"Archive"
-				"tall"		"20"
-				"yres"	"1024 1199"
-				"antialias" 	"1"
-			}
-			"5"
-			{
-				"name"		"Archive"
-				"tall"		"22"
-				"yres"	"1200 10000"
-				"antialias" 	"1"
-			}
-		}
-		"CrossHairKonrWings"
-		{
-			"1"
-			{
-			"name"	 "Garm3nFont"
-			"tall"	 "20"
-			"weight"	"0"
-			"antialias"	"1"
-			}
-		}
-		"CrossHairKonrWingsOutline"
-		{
-			"1"
-			{
-			"name"	 "Garm3nFont"
-			"tall"	 "20"
-			"weight"	"0"
-			"antialias"	"1"
-			"outline"	"1"
-			}
-		}
-		fogCrosshair
-		{
-			"1"
-			{
-				"name"		"Crosshairs"
-				"tall"		"28"
-				"additive"	"0"
-				"antialias" 	"0"
-				"weight"	"0"
-				"outline"	"1"
-			}
-		}
-		fogCrosshairPlain
-		{
-			"1"
-			{
-				"name"		"Crosshairs"
-				"tall"		"28"
-				"additive"	"0"
-				"antialias" 	"0"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		fogCrosshairSmooth
-		{
-			"1"
-			{
-				"name"		"Crosshairs"
-				"tall"		"28"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
 		"BlocksSharp64"
 		{
 			"1"
@@ -2468,97 +2167,249 @@ Scheme
 			}
 		}
 
-		"CrossHairNormal"
+		"Default"
 		{
 			"1"
 			{
-				"name"		"Symbol"
+				"name"		"MuseoSansCyrl-500"
+				"tall"		"10"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"DefaultUnderline"
+		{
+			"1"
+			{
+				"name"		"MuseoSansCyrl-500"
+				"tall"		"9"
+				"underline" "1"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias" 	"1"
+			}
+			"2"
+			{
+				"name"		"MuseoSansCyrl-500"
+				"tall"		"9"
+				"range" 		"0x0000 0x00FF"
+				"antialias" 	"1"
+			}
+		}
+		"DefaultSmall"
+		{
+			"1"
+			{
+				"name"		"MuseoSansCyrl-500"
+				"tall"		"9"
+				"range"		"0x0000 0x017F"
+				"yres"	"480 599"
+				"antialias" 	"1"
+			}
+			"2"
+			{
+				"name"		"MuseoSansCyrl-500"
+				"tall"		"9"
+				"range"		"0x0000 0x017F"
+				"yres"	"600 767"
+				"antialias" 	"1"
+			}
+			"3"
+			{
+				"name"		"MuseoSansCyrl-500"
+				"tall"		"11"
+				"range"		"0x0000 0x017F"
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"MuseoSansCyrl-500"
+				"tall"		"18"
+				"range"		"0x0000 0x017F"
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"MuseoSansCyrl-500"
+				"tall"		"20"
+				"range"		"0x0000 0x017F"
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"MuseoSansCyrl-500"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"antialias" 	"1"
+			}
+		}
+
+
+		"DefaultVerySmall"
+		{
+			"1"
+			{
+				"name"		"MuseoSansCyrl-500"
+				"tall"		"12"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+				"antialias" 	"1"
+			}
+			"2"
+			{
+				"name"		"MuseoSansCyrl-500"
+				"tall"		"12"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
+				"antialias" 	"1"
+			}
+			"3"
+			{
+				"name"		"MuseoSansCyrl-500"
+				"tall"		"12"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"MuseoSansCyrl-500"
+				"tall"		"14"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"MuseoSansCyrl-500"
+				"tall"		"16"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+		}
+		DefaultLarge
+		{
+			"1"
+			{
+				"name"		"MuseoSansCyrl-500"
+				"tall"		"18"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"480 599"
+				"antialias" 	"1"
+			}
+			"2"
+			{
+				"name"		"MuseoSansCyrl-500"
+				"tall"		"20"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"600 767"
+				"antialias" 	"1"
+			}
+			"3"
+			{
+				"name"		"MuseoSansCyrl-500"
+				"tall"		"22"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"MuseoSansCyrl-500"
 				"tall"		"28"
-				"weight"	"0"
-				"additive"	"0"
-				"outline" "1"
-			}
-		}
-
-		"CrossHairRequest"
-		{
-			"1"
-			{
-				"name"		"Courier"
-				"tall"		"20"
-				"weight"	"0"
-				"additive"	"0"
-				"outline" "1"
-			}
-		}
-
-		"CrossHairCircle"
-		{
-			"1"
-			{
-				"name"		"Formas germetricas 1"
-				"tall"		"30"
-				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"1024 1199"
 				"antialias"	"1"
 			}
-		}
-
-		"CrossHairDotOutline"
-		{
-			"1"
+			"5"
 			{
-				"name"		"Paula"
-				"tall"		"4"
-				"weight"	"0"
-				"outline" "1"
-				"antialias"	"0"
+				"name"		"MuseoSansCyrl-500"
+				"tall"		"28"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
+				"antialias" 	"1"
 			}
-		}
-
-		"xHairNormal"
-		{
-			"1"
+			"6"
 			{
-				"name"		"Symbol"
-				"tall"		"30"
-				"weight"	"0"
-				"additive"	"0"
-				"outline" "1"
-			}
-		}
-
-		"xHairRequest"
-		{
-			"1"
-			{
-				"name"		"Courier"
+				"name"		"MuseoSansCyrl-500"
 				"tall"		"20"
-				"weight"	"0"
+				"range" 		"0x0000 0x00FF"
+				"antialias" 	"1"
+			}
+			"7"
+			{
+				"name"		"MuseoSansCyrl-500"
+				"tall"		"20"
+				"range" 		"0x0000 0x00FF"
+				"antialias" 	"1"
+			}
+		}
+		CenterPrintText
+		{
+			// note that this scales with the screen resolution
+			"1"
+			{
+				"name"	"Archive" [!$OSX]
+				"name"	"Archive" [$OSX]
+				"tall"	"18"
+				"antialias" "1"
+				"additive"	"1"
+			}
+		}
+
+		"PlayerPanelPlayerName"
+		{
+			"1"
+			{
+				"name"		"Archive"
+				"tall"		"8"
 				"additive"	"0"
-				"outline" "1"
+				"antialias" "1"
+				"antialias" 	"1"
 			}
 		}
 
-		"xHairCircle"
+		HudHintText
 		{
 			"1"
 			{
-				"name"		"Formas germetricas 1"
-				"tall"		"30"
-				"weight"	"0"
-				"antialias"	"1"
+				"name"		"Archive"
+				"tall"		"12"
+				"yres"	"480 599"
+				"antialias" 	"1"
 			}
-		}
-
-		"xHairDotOutline"
-		{
-			"1"
+			"2"
 			{
-				"name"		"Paula"
-				"tall"		"4"
-				"weight"	"0"
-				"outline" "1"
-				"antialias"	"0"
+				"name"		"Archive"
+				"tall"		"12"	[$WIN32]
+				"tall"		"20"	[$X360]
+				"yres"	"600 767"
+				"antialias" 	"1"
+			}
+			"3"
+			{
+				"name"		"Archive"
+				"tall"		"14"
+				"yres"	"768 1023"
+				"antialias" 	"1"
+			}
+			"4"
+			{
+				"name"		"Archive"
+				"tall"		"20"
+				"yres"	"1024 1199"
+				"antialias" 	"1"
+			}
+			"5"
+			{
+				"name"		"Archive"
+				"tall"		"22"
+				"yres"	"1200 10000"
+				"antialias" 	"1"
 			}
 		}
 
@@ -7261,60 +7112,36 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
-		"7" 
-		{
-			"font" "resource/fonts/symbol.ttf"
-			"name" "symbol"
-		}
+		"7" "resource/ocra.ttf"
 		"8" 
-		{
-			"font" "resource/fonts/FORMASGE.ttf"
-			"name" "FORMASGE"
-		}
-		"9" 
-		{
-			"font" "resource/fonts/Paula.ttf"
-			"name" "Paula"
-		}
-		"10" 
 		{
 			"font" "resource/fonts/Archive.otf"
 			"name" "Archive"
 		}
-		"11" 
+		"9" 
 		{
 			"font" "resource/fonts/GOTHIC.ttf"
 			"name" "Century Gothic"
 		}
-		"12" 
+		"10" 
 		{
 			"font" "resource/fonts/MuseoSansCyrl-500.otf"
 			"name" "MuseoSansCyrl-500"
 		}
-		"13" 
+		"11" 
 		{
 			"font" "resource/fonts/Archive_numbers.otf"
 			"name" "Archive_numbers"
 		}
-		"14" 
+		"12" 
 		{
 			"font" "resource/fonts/HudasIscariote.otf"
 			"name" "Hudas Iscariote"
 		}
-		"15"
+		"13"
 		{
 			"font" "resource/fonts/Blocks.ttf"
 			"name" "Blocks"
-		}
-		"16" 
-		{
-			"font" "resource/fonts/crosshairs.ttf"
-			"name" "Crosshairs"
-		}
-		"17" 
-		{
-			"font" "resource/fonts/Garm3nFont.ttf"
-			"name" "Garm3nFont"
 		}
 	}
 }

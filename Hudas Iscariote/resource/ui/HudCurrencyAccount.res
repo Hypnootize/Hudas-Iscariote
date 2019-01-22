@@ -28,6 +28,6 @@
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"0 0 0 175"
+		"bgcolor_override"	"32 32 32 255"
 	}
 }
