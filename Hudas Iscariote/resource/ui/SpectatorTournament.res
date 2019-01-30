@@ -125,11 +125,6 @@
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
 				"fgcolor"		"234 234 234 255"
-
-				if_mvm
-				{
-					"visible"		"1"
-				}
 			}
 
 			"classimage"
@@ -145,11 +140,6 @@
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
 				"scaleImage"	"1"	
-
-				if_mvm
-				{
-					"visible"		"1"
-				}
 			}
 			
 			"classimagebg"
@@ -165,11 +155,6 @@
 				"enabled"		"1"
 				"bgcolor_override"		"Black"
 				"PaintBackgroundType"	"0"
-				
-				if_mvm
-				{
-					"visible"		"0"
-				}
 			}
 			
 			"HealthIcon"
@@ -210,11 +195,6 @@
 			
 				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
 				"draw_corner_height" 	"3"
-				
-				if_mvm
-				{
-					"visible"		"0"
-				}	
 			}
 			
 			"ReadyImage"
@@ -232,11 +212,6 @@
 				"enabled"		"1"
 				"image"			"hud/checkmark"
 				"scaleImage"		"1"
-
-				if_mvm
-				{
-					"visible"		"0"
-				}	
 			}
 			
 			"respawntime"
@@ -255,11 +230,6 @@
 				"labelText"		"%respawntime%"
 				"textAlignment"	"center"
 				"fgcolor"		"255 125 0 255"
-
-				if_mvm
-				{
-					"visible"		"1"
-				}
 			}
 			"respawntimeBG"
 			{
@@ -277,11 +247,6 @@
 				"labelText"		"%respawntime%"
 				"textAlignment"	"center"
 				"fgcolor"		"32 32 32 255"
-
-				if_mvm
-				{
-					"visible"		"1"
-				}
 			}
 			"chargeamount"
 			{
@@ -316,17 +281,7 @@
 				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
 			}
-
-			if_mvm
-			{
-				"visible"		"0"
-			}
 		}
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}		
 	}
 
 	"topbar"
